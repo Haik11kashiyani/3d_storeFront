@@ -15,8 +15,7 @@ export default function App() {
         <SoftShadows size={40} samples={16} focus={0.5} />
 
         {/* Main overhead strip light - Super Bright */}
-        <rectAreaLight
-          width={80}
+        <rectAreaLight          width={80}
           height={100}
           color="#ffffff"
           intensity={50}
